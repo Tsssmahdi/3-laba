@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container-fluid">
+
+
+
+    <div class="row" id=header>
+      <div class="col-2">
+      </div>
+      <div class="col-4" id="he1">
+         <img src="logo_white@2x.png" width="25vw" height="25vh"  id="icon"><h1 class="texthead">авиасейлс</h1>
+         <a href="#" class="btn btn-primary" id="buttonhead1" role="button" data-bs-toggle="button">Авиабилеты</a>
+         <a href="#" class="btn btn-primary" id="buttonhead1" role="button" data-bs-toggle="button">Отели</a>
+         <button type="button" id="buttonhead" class="btn btn-primary">Для бизнеса<svg xmlns="http://www.w3.org/2000/svg" width="2vw" height="2vh" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+           </svg>
+         </button>
+      </div>
+      <div class="col-4" id="he3">
+        <button type="button" id="buttonhead" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.3vw"  fill="currentColor" class="bi bi-emoji-smile-upside-down" viewBox="0 0 16 16">
+            <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0-1a8 8 0 1 1 0 16A8 8 0 0 1 8 0z"/>
+            <path d="M4.285 6.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5zm4 0c0-.828-.448-1.5-1-1.5s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5z"/>
+          </svg>
+          Профиль
+        </button>
+        <button type="button" id="buttonhead" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.3vw"  fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+            <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z"/>
+          </svg>
+          Кое-что ещё
+        </button>
+        <button type="button" id="buttonhead" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.3vw"  fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+        </svg>
+      </button>
+      <button type="button" id="buttonhead" class="btn btn-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.3vw" fill="currentColor" class="bi bi-grid-3x3-gap" viewBox="0 0 16 16">
+          <path d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2z"/>
+        </svg>
+      </button>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+
+
+
+
+    <div class="row" id="header2">
+      <div class="col-2">
+      </div>
+      <div class="col-8" id="poisk">
+
+        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="Откуда">
+        <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="Куда">
+        <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="Когда">
+        <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="Обратно">
+        <input type="email" class="form-control" id="exampleDropdownFormEmail3" placeholder="1 пассажир">
+        <button type="button" id="buttonpoisk" class="btn btn-primary">Найти билеты</button>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+
+
+
+
+
+    <div class="row" id="header3">
+      <div class="col-2">
+      </div>
+      <div class="col-8">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1vw" fill="currentColor" class="bi bi-command" viewBox="0 0 16 16" id="hard1">
+          <path d="M3.5 2A1.5 1.5 0 0 1 5 3.5V5H3.5a1.5 1.5 0 1 1 0-3zM6 5V3.5A2.5 2.5 0 1 0 3.5 6H5v4H3.5A2.5 2.5 0 1 0 6 12.5V11h4v1.5a2.5 2.5 0 1 0 2.5-2.5H11V6h1.5A2.5 2.5 0 1 0 10 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1 1 12.5 5H11zm0 6h1.5a1.5 1.5 0 1 1-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 1 1 3.5 11H5z"/>
+        </svg>
+        <a id="hard">Составить сложный маршрут</a>
+      </div>
+      <div class="col-2">
+      </div>
+  </div>
+
+
+
+  <div class="row" id="main">
+    <div class="col-2">
+    </div>
+    <div class="col-8" id="main1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1.5vw" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16" id="calendar">
+      <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+      <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+      </svg><span id="calendar1">Цены на соседние даты</span>
+      <button type="button" class="btn btn-link" id="butmain">22 153 ₽<p id="butp">02 мая - 04 мая</p></button>
+      <button type="button" class="btn btn-link" id="butmain">21 363 ₽<p id="butp">03 мая - 06 мая</p></button>
+      <button type="button" class="btn btn-link" id="butmain">21 074 ₽<p id="butp">04 мая - 05 мая</p></button>
+      <button type="button" class="btn btn-link" id="butmain">21 345 ₽<p id="butp">05 мая - 06 мая</p></button>
+      <button type="button" class="btn btn-link" id="butmain">27 871 ₽<p id="butp">06 мая - 06 мая</p></button>
+      <button type="button" class="btn btn-link" id="butmain">24 338 ₽<p id="butp">07 мая - 07 мая</p></button>
+      <button type="button" class="btn btn-secondary" id="mainshow"><span id=mainshow2>Показать</span></button>
+    </div>
+    <div class="col-2">
+    </div>
+          <hr id="hr1">
+  </div>
+
+
+
+
+  <div class="row" id="mainmain">
+    <div class="col-2">
+    </div>
+    <div class="col-2" id="mainmain1">
+        <button type="button" class="btn btn-secondary" id="cenashow"><span id=cena><svg xmlns="http://www.w3.org/2000/svg" width="1.5vw" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+          <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+        </svg>СЛЕДИТЬ ЗА ЦЕНОЙ</span></button>
+    </div>
+        <div class="col-6" id="mainmain2">
+        <button type="button" class="btn btn-secondary" id="cenashow1"><span id=cena1><svg xmlns="http://www.w3.org/2000/svg" id="tick" width="1.5vw" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </svg> Для туристов открыто</span></button>
+        </div>
+
+    </div>
+    <div class="col-2">
+    </div>
+  </div>
+
+
+
+
+  <div class="row" id="gl">
+    <div class="col-2">
+    </div>
+    <div class="col-2" id="gl1">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Пересадки
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Вылет в Ереван
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Обратно в Ростов-на-Дону
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Багаж
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Авиакомпании
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Альянсы
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Время в пути
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Аэрапорты пересадок
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Аэропорты в Ростове-на-Дону
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Аэропорты в Ереване
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Стоимость
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Агентства
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Способы оплаты
+  </button>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Сортировка
+  </button>
+</div>
+    </div>
+    <div class="col-5" id="gl3">
+      <div class="row" id="gl4">
+          <div class="col-4" id="refresh">
+            <p id="hh1"><b>21 074 ₽</b></p>
+            <button type="button" id="buttonpoisk1" class="btn btn-primary">Обновить</button>
+          </div>
+          <div class="col-8" id="gl6">
+            <div class="row">
+              <div class="col" id="colll">
+                <p class="ppp1">07:10 <svg  width="2vw" viewBox="0 0 24 24" fill="currentColor" id="plane" xmlns="http://www.w3.org/2000/svg" data-test-id="icon" class="icon_0ce8f7f segment-route__path-endpoint-icon" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.954 9.793l-2.719 1.268c-2-.64-4.862-1.236-7.398-2.056l-1.201.55c1.32 1.029 3.135 2.33 4.52 3.408L7.439 14.23c-1.173-.248-2.418-.338-3.349-.532-.506-.106-.816.339-.338.71 2.256 1.759 3.159 2.469 3.159 2.469.392.305.875.497 1.343.283l12.445-5.803c.906-.46.871-1.106.64-1.629-.547-1.173-2.049-1.003-4.384.064z"><hr id="ddd"></path></svg></p>
+                <p class="ppp2">Ростов-на-Дону</p>
+                <p class="ppp2">4 мая 2022, ср</p>
+                <hr>
+              </div>
+              <div class="col" id="collll">
+                <p class="ppp1"><svg width="2vw" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-test-id="icon" class="icon_0ce8f7f segment-route__path-endpoint-icon" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.109 14.02l-2.719-1.268c-.795-1.945-2.178-4.52-3.18-6.99l-1.193-.567c.06 1.674.23 3.9.295 5.655l-2.72-1.268c-.564-1.058-1.295-2.069-1.744-2.907-.245-.456-.785-.408-.762.198.103 2.858.14 4.006.14 4.006.018.497.182.99.646 1.21l12.445 5.804c.935.398 1.407-.043 1.659-.557.547-1.173-.549-2.214-2.867-3.317z"></path></svg> 09:50</p>
+                <p class="ppp2">Ереван</p>
+                <p class="ppp2">4 мая 2022, ср</p>
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+                  <div class="col" id="colll">
+                    <p class="ppp3">16:55 <svg width="2vw" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-test-id="icon" class="icon_0ce8f7f segment-route__path-endpoint-icon" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.954 9.793l-2.719 1.268c-2-.64-4.862-1.236-7.398-2.056l-1.201.55c1.32 1.029 3.135 2.33 4.52 3.408L7.439 14.23c-1.173-.248-2.418-.338-3.349-.532-.506-.106-.816.339-.338.71 2.256 1.759 3.159 2.469 3.159 2.469.392.305.875.497 1.343.283l12.445-5.803c.906-.46.871-1.106.64-1.629-.547-1.173-2.049-1.003-4.384.064z"><hr id="ddd1"></path></svg></p>
+                    <p class="ppp2">Ереван</p>
+                    <p class="ppp2">5 мая 2022, чт</p>
+                  </div>
+                  <div class="col" id="collll">
+                    <p class="ppp4"><svg width="2vw" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-test-id="icon" class="icon_0ce8f7f segment-route__path-endpoint-icon" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.109 14.02l-2.719-1.268c-.795-1.945-2.178-4.52-3.18-6.99l-1.193-.567c.06 1.674.23 3.9.295 5.655l-2.72-1.268c-.564-1.058-1.295-2.069-1.744-2.907-.245-.456-.785-.408-.762.198.103 2.858.14 4.006.14 4.006.018.497.182.99.646 1.21l12.445 5.804c.935.398 1.407-.043 1.659-.557.547-1.173-.549-2.214-2.867-3.317z"></path></svg> 17:40</p>
+                    <p class="ppp2">Ростов-на-Дону</p>
+                    <p class="ppp2">5 мая 2022, чт</p>
+                  </div>
+            </div>
+        </div>
+          <hr id="hrrr">
+      </div>
+      <div class="row" id="gl8">
+          <div class="col-4" id="refresh">
+            <p id="hh1"><b>21 074 ₽</b></p>
+            <button type="button" id="buttonpoisk1" class="btn btn-primary">Обновить</button>
+          </div>
+          <div class="col-8" id="gl8">
+            <div class="row">
+              <div class="col" id="colll">
+                <p class="ppp1">07:10 <svg width="2vw" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-test-id="icon" class="icon_0ce8f7f segment-route__path-endpoint-icon" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.954 9.793l-2.719 1.268c-2-.64-4.862-1.236-7.398-2.056l-1.201.55c1.32 1.029 3.135 2.33 4.52 3.408L7.439 14.23c-1.173-.248-2.418-.338-3.349-.532-.506-.106-.816.339-.338.71 2.256 1.759 3.159 2.469 3.159 2.469.392.305.875.497 1.343.283l12.445-5.803c.906-.46.871-1.106.64-1.629-.547-1.173-2.049-1.003-4.384.064z"><hr id="ddd"></path></svg></p>
+                <p class="ppp2">Ростов-на-Дону</p>
+                <p class="ppp2">4 мая 2022, ср</p>
+                <hr>
+              </div>
+              <div class="col" id="collll">
+                <p class="ppp1"><svg width="2vw" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-test-id="icon" class="icon_0ce8f7f segment-route__path-endpoint-icon" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.109 14.02l-2.719-1.268c-.795-1.945-2.178-4.52-3.18-6.99l-1.193-.567c.06 1.674.23 3.9.295 5.655l-2.72-1.268c-.564-1.058-1.295-2.069-1.744-2.907-.245-.456-.785-.408-.762.198.103 2.858.14 4.006.14 4.006.018.497.182.99.646 1.21l12.445 5.804c.935.398 1.407-.043 1.659-.557.547-1.173-.549-2.214-2.867-3.317z"></path></svg> 09:50</p>
+                <p class="ppp2">Ереван</p>
+                <p class="ppp2">4 мая 2022, ср</p>
+                <hr>
+              </div>
+            </div>
+            <div class="row">
+                  <div class="col" id="colll">
+                    <p class="ppp3">16:55 <svg width="2vw" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-test-id="icon" class="icon_0ce8f7f segment-route__path-endpoint-icon" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.954 9.793l-2.719 1.268c-2-.64-4.862-1.236-7.398-2.056l-1.201.55c1.32 1.029 3.135 2.33 4.52 3.408L7.439 14.23c-1.173-.248-2.418-.338-3.349-.532-.506-.106-.816.339-.338.71 2.256 1.759 3.159 2.469 3.159 2.469.392.305.875.497 1.343.283l12.445-5.803c.906-.46.871-1.106.64-1.629-.547-1.173-2.049-1.003-4.384.064z"><hr id="ddd1"></path></svg></p>
+                    <p class="ppp2">Ереван</p>
+                    <p class="ppp2">5 мая 2022, чт</p>
+                  </div>
+                  <div class="col" id="collll">
+                    <p class="ppp4"><svg width="2vw" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-test-id="icon" class="icon_0ce8f7f segment-route__path-endpoint-icon" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.109 14.02l-2.719-1.268c-.795-1.945-2.178-4.52-3.18-6.99l-1.193-.567c.06 1.674.23 3.9.295 5.655l-2.72-1.268c-.564-1.058-1.295-2.069-1.744-2.907-.245-.456-.785-.408-.762.198.103 2.858.14 4.006.14 4.006.018.497.182.99.646 1.21l12.445 5.804c.935.398 1.407-.043 1.659-.557.547-1.173-.549-2.214-2.867-3.317z"></path></svg> 17:40</p>
+                    <p class="ppp2">Ростов-на-Дону</p>
+                    <p class="ppp2">5 мая 2022, чт</p>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-3">
+    </div>
+  <hr id="hr1">
+  </div>
+  <div class="row" id="footer">
+    <div class="col-2"></div>
+    <div class="col-1" id="f1">
+    <p><a href="#" id="aaa"><b>СТРАНЫ</b></a></p>
+    <p><a href="#" id="aaa">Россия</a></p>
+    <p><a href="#" id="aaa">Таиланд</a></p>
+    <p><a href="#" id="aaa">Черногория</a></p>
+    <p><a href="#" id="aaa">Кипр</a></p>
+    <p><a href="#" id="aaa">Болгария</a></p>
+    <p><a href="#" id="aaa">Грузия</a></p>
+    <p><a href="#" id="aaa1"><b>Все страны</b></a></p>
+</div>
+    <div class="col-1" id="f2">
+      <p><a href="#" id="aaa"><b>ГОРОДА</b></a></p>
+      <p><a href="#" id="aaa">Москва</a></p>
+      <p><a href="#" id="aaa">Санкт-Петербург</a></p>
+      <p><a href="#" id="aaa">Симферополь</a></p>
+      <p><a href="#" id="aaa">Адлер</a></p>
+      <p><a href="#" id="aaa">Екатеринбург</a></p>
+      <p><a href="#" id="aaa">Лондон</a></p>
+      <p><a href="#" id="aaa1"><b>Все города</b></a></p>
+    </div>
+    <div class="col-1" id="f2">
+      <p><a href="#" id="aaa"><b>АВИАКОМПАНИИ</b></a></p>
+      <p><a href="#" id="aaa">Аэрофлот</a></p>
+      <p><a href="#" id="aaa">Air France</a></p>
+      <p><a href="#" id="aaa">Alitalia</a></p>
+      <p><a href="#" id="aaa">Air Baltic</a></p>
+      <p><a href="#" id="aaa">Emirates</a></p>
+      <p><a href="#" id="aaa">KLM</a></p>
+      <p><a href="#" id="aaa1"><b>Все авиакомпании</b></a></p>
+    </div>
+    <div class="col-1" id="f2">
+      <p><a href="#" id="aaa"><b>АЭРОПОРТЫ</b></a></p>
+      <p><a href="#" id="aaa">Шереметьево</a></p>
+      <p><a href="#" id="aaa">Курумоч</a></p>
+      <p><a href="#" id="aaa">Домодево</a></p>
+      <p><a href="#" id="aaa">Толмачево</a></p>
+      <p><a href="#" id="aaa">Владивосток</a></p>
+      <p><a href="#" id="aaa">Гамбург</a></p>
+      <p><a href="#" id="aaa1"><b>Все аэропорты</b></a></p>
+    </div>
+    <div class=col-1 id="f2">
+      <p><a href="#" id="aaa"><b>СЕРВИСЫ</b></a></p>
+      <p><a href="#" id="aaa">Куда можно</a></p>
+      <p><a href="#" id="aaa">Издание ПСЖР</a></p>
+      <p><a href="#" id="aaa">Помощь</a></p>
+    </div>
+    <div class="col-2" id="f3">
+      <p><a href="#" id="aaa"><b>НАПРАВЛЕНИЯ</b></a></p>
+      <p><a href="#" id="aaa">Москва - Симферополь</a></p>
+      <p><a href="#" id="aaa">Москва - Сочи</a></p>
+      <p><a href="#" id="aaa">Москва - Тиват</a></p>
+      <p><a href="#" id="aaa">Москва - Минеральные воды</a></p>
+      <p><a href="#" id="aaa">Санкт-Петербург - Москва</a></p>
+      <p><a href="#" id="aaa">Москва - Бангкок</a></p>
+    </div>
+  <div class="col-3"></div>
+</div>
+  <div class="row" id="footer1">
+    <div class="col">
+
+    </div>
+  </div>
+</div>
+</body>
